@@ -44,9 +44,9 @@
 <body>
     <!-- Color Nip -->
     <div class="Switcher">
-    <button id="Switcher__control" class="Switcher__control">
+    <!-- <button id="Switcher__control" class="Switcher__control">
         <i class="fas fa-cogs"></i>
-    </button>
+    </button> -->
     <h5 style="margin-bottom: 5px">Change Color</h5>
     <ul id="colors" data-dir="assets/css/theme-colors/">
         <li data-scheme="theme-default" data-color="#4272d7" style="background-color:#4272d7"></li>
@@ -73,26 +73,28 @@
     <!-- Start Header Area -->
     <div class="header-area">
         <div class="container">
-            <div class="header-wrapper">
-                <div class="row" style="align-items: center;">
+            <div class="" style="display: flex; justify-content: center; align-items: center;">
+                <img src="assets/img/main_logo.png" alt="" style="width: 30%;">
+            </div>
+            <div class="header-wrapper" style="justify-content: center; align-items: center; display: flex;">
+                <div class="" style="justify-content: center; align-items: center;">
                     <div class="col-lg-3 col-6">
                         <div class="site-logo">
-							<img src="assets/img/main_logo.jpg" alt="" style="width: 50%;">
                             <a data-toggle="tooltip" title="Be-one" href="index.html"></a>
                         </div>
                     </div>
                     <div class="col-6 d-lg-none static text-right">
                         <div class="show-mobile-menu"></div>
                     </div>
-                    <div class="col-lg-9 text-right d-none d-lg-block">
+                    <div class="d-none d-lg-block">
                         <nav class="menu-wrapper">
-                            <ul class="main-menu" id="mobile-menu">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#feature">모건소개</a></li>
-                                <li><a href="#portfolio">추천기업</a></li>
-                                <li><a href="#page">성공사례</a></li>
-                                <li><a href="#blog">투자후기</a></li>
-                                <li><a href="#contact-us">지점/지사 문의</a></li>
+                            <ul class="main-menu" id="mobile-menu" style="font-size: 25px; border-bottom: 2px solid #000; padding-bottom: 15px; margin-bottom: 15px;">
+                                <li class="active"><a href="#">코알TV</a></li>
+                                <li><a href="#feature">상품소개</a></li>
+                                <li><a href="#portfolio">수익인증</a></li>
+                                <li><a href="#page">코인소식</a></li>
+                                <!-- <li><a href="#blog">투자후기</a></li>
+                                <li><a href="#contact-us">지점/지사 문의</a></li> -->
                                 <!-- <li class="search-trigger d-none d-lg-inline-block"><a href="javascript:void(0)"><i class="fas fa-search"></i></a> -->
                                 </li>
                             </ul>
@@ -108,7 +110,7 @@
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-12">
-                    <div class="slider-carousel owl-carousel">
+                    <!-- <div class="slider-carousel owl-carousel">
                         <div class="single-slider slider-bg-1 text-center">
                             <div class="slider-inner">
                                 <h1>티에스유 투자 그룹의 혜안</h1>
@@ -130,14 +132,26 @@
                                 <a class="btn get-started-btn" href="#">Get Started</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
+    <div style="display: flex; justify-content: center; flex-direction: column;">
+        <!-- <span>11월 25일자 무료체험 신청 현황</span> -->
+        <img src="assets/img/main/main1.jpg" alt="">
+        <div>
+            <span style="position: absolute; font-size: 30px; top: 170px; color: #FFF; left: 160px;">
+                저성장 저금리 시대
+                코알TV가 정답이
+                되어드리겠습니다.<br><br>
+                오랜 투자 경험을 바탕으로 투자자분들께 도움을 드리겠습니다.
+            </span>
+        </div>
+    </div>
     <!-- End Slider Area -->
     <!-- Start Hire Us Area -->
-    <div class="hire-us-area theme-bg js--sticky-menu">
+    <!-- <div class="hire-us-area theme-bg js--sticky-menu">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-9 col-12">
@@ -150,10 +164,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Hire Us Area -->
     <!-- Start Icon Box Area -->
-    <div class="icon-box-area pt-70 pb-70" id="feature">
+    <!-- <div class="icon-box-area pt-70 pb-70" id="feature">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -191,10 +205,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Icon Box Area -->
     <!-- Start We are Bemax Area -->
-    <div class="bemax-area gray-bg pt-65 pb-25">
+    <!-- <div class="bemax-area gray-bg pt-65 pb-25">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-70">
@@ -272,10 +286,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End We are Bemax Area -->
     <!-- Start Latest Project Area -->
-    <div class="latest-project-area black-bg pt-70 pb-70" id="portfolio">
+    <!-- <div class="latest-project-area black-bg pt-70 pb-70" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-70">
@@ -333,10 +347,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Latest Project Area -->
     <!-- Start Why Choose Us Area -->
-    <div class="choose-us-area pt-70 pb-70" id="page">
+    <!-- <div class="choose-us-area pt-70 pb-70" id="page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-70">
@@ -367,10 +381,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Why Choose Us Area -->
     <!-- Start Working With Us Area -->
-    <div class="working-with-us-area gray-bg">
+    <!-- <div class="working-with-us-area gray-bg">
         <div class="container"> 
             <div class="row">
                 <div class="col-md-6 col-12 text-center d-flex align-items-center">
@@ -389,10 +403,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Working With Us Area -->
     <!-- Start Carousel Area -->
-    <div class="carousel-area pt-80 pb-80" id="blog">
+    <!-- <div class="carousel-area pt-80 pb-80" id="blog">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -528,10 +542,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Carousel Area -->
     <!-- Start Brands Area -->
-    <div class="brand-area gray-bg pt-70 pb-70">
+    <!-- <div class="brand-area gray-bg pt-70 pb-70">
         <div class="container">
             <div class="brand-carousel owl-carousel">
                 <div class="brand-item">
@@ -566,7 +580,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Brands Area -->
     <!-- Start Footer Area -->
     <footer class="footer-area pt-60 pb-60 black-bg" id="contact-us">
@@ -575,20 +589,20 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html">Be-One </a>
+                            <a href="index.html">코알 TV </a>
                         </div>
                         <div class="footer-dec">
                             <p>Be-one is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
                         </div>
-                        <ul class="social-links">
+                        <!-- <ul class="social-links">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
                         <div class="widget-title">
                             <h6>Features</h6>
@@ -601,21 +615,22 @@
                             <li><a href="#">Site Map</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
                         <div class="widget-title">
                             <h6>Contact us</h6>
                         </div>
                         <div class="address-line">
-                            <p>Address: 379 5th Ave  New York, NYC 10018, United States</p>
+                            <p>CEO : 이태화</p>
+                            <p>Address: 경기도 부천시 부일로 519, 2층 201호 내 202호</p>
                             <p>Phone: <a href="tel:+112345 6999">+(112) 345 6999</a></p>
                             <p>Fax: +(112) 345 8999</p>
                             <p>Email: <a href="mailto:contact@be-one.com">contact@be-one.com</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
                         <div class="widget-title">
                             <h6>Newsletter</h6>
@@ -628,7 +643,7 @@
                             <input class="btn newsletter-btn" type="submit" value="Subscribe">
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
