@@ -151,3 +151,49 @@ $('a').on('click', function(event){
 });
 
 })(jQuery);
+
+// 여석민 수정
+function count_num(element, maxval) {
+    $({ val : 0 }).animate({ val : maxval }, {
+        duration: 1500,
+        step: function() {
+            var num = numberWithCommas(Math.floor(this.val));
+            $(element).text(num);
+        },
+        complete: function() {
+            var num = numberWithCommas(Math.floor(this.val));
+            $(element).text(num);
+        }
+    });
+    
+    
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+}
+
+function count_per(element, maxval) {
+    $({ val : 0 }).animate({ val : maxval }, {
+        duration: 1000,
+        step: function() {
+            var num = numberWithCommas(this.val.toFixed(1));
+            $(element).text(num);
+        },
+        complete: function() {
+            var num = numberWithCommas(this.val.toFixed(1));
+            $(element).text(num);
+        }
+    });
+
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+}
+
+function main() {
+    count_num(".all_people", 250000)
+    count_num(".all_vip", 6750)
+    count_num(".m_revenue", 482)
+    count_per(".subscription_rate", 92.8)
+}
+main();
