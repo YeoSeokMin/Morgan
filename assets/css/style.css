@@ -374,7 +374,9 @@
 .main-menu li.active a {
     color: #838235;
 }
-
+.active {
+    color: #838235;
+}
 
 .search-popup-wrapper input[type=search] {
     background: none;

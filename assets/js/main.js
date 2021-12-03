@@ -195,5 +195,23 @@ function main() {
     count_num(".all_vip", 6750)
     count_num(".m_revenue", 482)
     count_per(".subscription_rate", 92.8)
+
+    $('.main').click(function(){
+        console.log("ㅎㅎ")
+        location.href = "/index.html"
+    })
+    $('.goods').click(function(){
+        location.href = "/goods.html"
+    })
+
+    $('.coinnews').click(function(){
+        location.href = "/news.html"
+    })
+    $('.company').click(function(){
+        location.href = "/company.html"
+    })
+    $('.main_logo').click(function(){
+        location.href = "/index.html"
+    })
 }
 main();
