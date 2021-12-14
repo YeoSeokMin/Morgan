@@ -191,8 +191,8 @@ function count_per(element, maxval) {
 }
 
 function main() {
-    count_num(".all_people", 250000)
-    count_num(".all_vip", 6750)
+    count_num(".all_people", 251853)
+    count_num(".all_vip", 6755)
     count_num(".m_revenue", 482)
     count_per(".subscription_rate", 92.8)
 
